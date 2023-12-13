@@ -1,0 +1,47 @@
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+
+.textbox {
+    width: 40%;
+    margin: auto;
+    display: inline-block;
+}
+
+.addbtn {
+    width: 6rem;
+    margin: 0.6rem auto;
+    display: none;
+}
+
+ul {
+    margin: auto;
+    margin-top: 2rem;
+}
+
+li {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.btnbox {
+    margin-left: 3rem;
+}
+
+.delbtn {
+    margin-left: 1rem;
+}
